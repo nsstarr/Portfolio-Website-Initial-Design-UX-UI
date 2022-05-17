@@ -1,0 +1,50 @@
+
+:root {
+    --primary-colour: #781ba3;
+    --secondary-colour: #FFE5D4;
+    --text-colour: white;
+    background-color: black;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Roboto Mono', serif;
+	font-size: 20px;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	color: white;
+}
+
+a:hover, a:focus {
+	color: white;
+	text-decoration: none;
+}
+
+
+h1 {
+	color: var(--primary-colour);
+	text-align: center;
+	margin-top: 4%;
+	font-size: 300.5%;
+}
+h2 {
+	color: white;
+	text-align: center;
+	margin-top: 4%;
+	font-size: 200.5%;
+}
+h3 {
+	color: var(--secondary-colour);
+	text-align: center;
+	margin-top: 4%;
+	font-size: 130.5%;
+}
